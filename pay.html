@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brembolo</title>
+    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+        
+    <div id="head" class="w-100 " style="height: 50px;">
+        <p class="w-50 p-2" style="font-size: 20px;">
+            <a href="login.html" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-user"></i></a>
+            <a href="pay.html" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-cart-shopping"></i></a>
+        </p>
+        <form class="d-flex w-50" role="search">
+            <input class="form-control me-2 my-1" type="search" placeholder="Search" aria-label="Search" style="background: none; height: 40px; width: 600px;" >
+            <button class="btn btn-outline-dark my-1" type="submit" style="height: 40px;">Search</button>
+        </form>
+</div>
+
+
+<nav class="navbar navbar-expand-md  navbar-dark bg-dark ">
+    <a href="index.html" class="navbar-brand mx-3 text-light nav1" style="font-size: 40px;"><span style="font-size: 50px;">B</span><sub>rembolo</sub></a>
+    <button class=" btn navbar-toggler" data-bs-toggle="collapse" data-bs-target="#links">
+        <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
+    </button>
+    <ul class="navbar-nav navbar-collapse collapse justify-content-end" id="links">
+        <a href="index.html" class="nav-item nav-link mx-2 text-light" style="font-size: 30px;">Home</a>
+        <a href="About.html" class="nav-item nav-link mx-2 text-light" style="font-size: 30px;">About</a>
+        <a href="product.html" class="nav-item nav-link mx-2 text-light" style="font-size: 30px;">Product</a>
+        <a href="contact.html" class="nav-item nav-link mx-2 text-light " style="font-size: 30px;">Contact us</a>
+    </ul>
+</nav>
+<section class="text-white">
+    <div class="container py-5 ">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="card-preview p-4 text-white" style="    background: linear-gradient(135deg, #007bff, #00bfff);
+    border-radius: 10px;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);text-align: left;min-height: 200px;">
+                    <h2>paymob</h2>
+                    <div class="chip mb-3"></div>
+                    <div class="card-details">
+                        <p class="card-number">•••• •••• •••• ••••</p>
+                        <p class="card-name">Enter Name</p>
+                        <p class="valid-thru">MM/YY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form class="payment-form">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Card Number" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Card Holder Name" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="MM/YY" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="CVV" required>
+                        </div>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="save-card">
+                        <label class="form-check-label" for="save-card">Save Card</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">PAY 300.00 EGP</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <div class="banks d-flex justify-content-center">
+                    <button type="submit" class="btn btn-danger w-50" style="font-size: 20px;">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/ef2fb6d0d5.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+#head{
+    background-color: rgb(130, 156, 205);
+    display: flex;
+    position: relative;
+}
+nav ul a:hover{
+    background-color: rgb(22, 128, 189);
+}

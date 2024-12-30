@@ -1,0 +1,33 @@
+#head{
+    background-color: rgb(130, 156, 205);
+    display: flex;
+    position: relative;
+}
+nav ul a:hover{
+    background-color: rgb(22, 128, 189);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  input[type="number"] {
+    max-width: 100px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  

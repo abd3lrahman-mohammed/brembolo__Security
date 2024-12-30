@@ -1,0 +1,38 @@
+#head{
+    background-color: rgb(130, 156, 205);
+    display: flex;
+    position: relative;
+}
+nav ul a:hover{
+    background-color: rgb(22, 128, 189);
+}
+
+.card-preview .chip {
+    width: 50px;
+    height: 35px;
+    background: gold;
+    border-radius: 5px;
+}
+
+.card-details p {
+    margin: 0;
+}
+
+.payment-form input {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body {
+background: url(8374f5bc-51b5-47e6-9b2a-ea9dfccc8ba8.jpg);
+background-size: cover;
+background-position: -100 ;
+}
